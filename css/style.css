@@ -1,0 +1,115 @@
+.myBtn{
+    outline: 1px solid rgb(124, 104, 238);
+    color: rgb(34, 34, 34);
+    transition: all 1s;
+}
+
+.myBtn:hover{
+    outline: 1px solid mediumslateblue;
+    background-color: mediumslateblue;
+    transition: all 1s;
+    color: white;
+}
+.myNav{
+    margin-top: 70px;
+}
+.sectionContact{
+    padding: 25px 35px;
+}
+.myMap iframe{
+    width: 100%;
+    height: 200px;
+}
+.myLogo{
+    filter:drop-shadow(3px 5px 3px white);
+}
+
+/* class HEADER */
+.navbar-brand {
+    font-weight: bold;
+    border-bottom: 3px solid red;
+    line-height: 100%;
+}
+
+.img-carousel {
+    height: 90vh;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.m-top-75 {
+    margin-top: 68px;
+}
+
+/* strelki */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgb(50, 50, 239);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+.producti h5 {
+    font-size: 18px;
+}
+
+.title-big {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.centered {
+    text-align: center;
+}
+.img-center{
+    margin: 10px auto;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow:
+    1px 1px #2fb380,
+    2px 2px #2fb380,
+    3px 3px #2fb380,
+    4px 4px #2fb380,
+    5px 5px #2fb380,
+    6px 6px #2fb380,
+    7px 7px #2fb380;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+
+p { text-indent: 25px; }
+
+.main{
+    text-align: justify;
+}
+
+
+footer {
+    color: white;
+}
+
+.zakaz {
+    margin-top: 100px;
+    min-height: 95vh;
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.zakaz-text {
+    margin-top: 30px;
+    line-height: 180%;
+}
+
+
+/*telefon*/
+@media (max-width:768px) {
+    .img-carousel {
+        height: 60vh;
+    }
+}
