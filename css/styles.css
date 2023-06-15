@@ -69,6 +69,7 @@
 }
 
 .card:hover {
+    /*
     box-shadow:
     1px 1px #2fb380,
     2px 2px #2fb380,
@@ -76,10 +77,14 @@
     4px 4px #2fb380,
     5px 5px #2fb380,
     6px 6px #2fb380,
-    7px 7px #2fb380;
-  -webkit-transform: translateX(-7px);
-  transform: translateX(-7px);
+    7px 7px #2fb380;*/
+    box-shadow: 0 0.5rem 0.5rem rgba(47,179,128,0.7);
+    transform: scale(1.01, 1.01);
+    transition: all 0.5s;
+  
+
 }
+
 
 
 p { text-indent: 25px; }
@@ -104,6 +109,65 @@ footer {
 .zakaz-text {
     margin-top: 30px;
     line-height: 180%;
+}
+
+.row-review {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.reviews {
+    position: relative;
+}
+
+.reviews .card-body {
+    min-height: 260px;
+}
+
+.reviews .card-img-top {
+    height: 210px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.reviews-desktop {
+    padding: 5px 100px;
+}
+
+.reviews-mobile {
+    display: none;
+}
+
+.reviews-mobile .card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80% !important;
+}
+
+.reviews-mobile .carousel-control-prev {
+    left: -12px;
+}
+
+.reviews-mobile .carousel-control-next {
+    right: -12px;
+}
+
+
+@media (max-width:1160px) {
+    .img-carousel {
+        height: 60vh;
+    }
+
+    .reviews-desktop {
+        display: none;
+    }
+
+    .reviews-mobile {
+        display: block;
+    }
 }
 
 
